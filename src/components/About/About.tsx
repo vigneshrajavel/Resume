@@ -1,13 +1,12 @@
 import { Container } from "./styles";
-
 import profileImage from "../../assets/profile-image.jpg"
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
+import angularIcon from "../../assets/angular-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
+import mysqlIcon from "../../assets/mysql-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -35,47 +34,53 @@ export function About(){
         </ScrollAnimation>
         <div className="hard-skills">
 
-          {/* <div className="hability">
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
-              <img src={reactIcon} alt="React" />
+              <img src={angularIcon} alt="Angular" />
             </ScrollAnimation>
-          </div> */}
+          </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}> 
             <img src={jsIcon} alt="JavaScript" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}> 
             <img src={htmlIcon} alt="Html" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}> 
             <img src={cssIcon} alt="Css" />
           </ScrollAnimation>
           </div>
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}> 
             <img src={nodeIcon} alt="Node" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
             <img src={typescriptIcon} alt="Typescript" />
           </ScrollAnimation>
           </div>
+          <div className="hability">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+            <img src={mysqlIcon} alt="Mysql" />
+          </ScrollAnimation>
+          </div>
+
 
 
         </div>
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          {/* <img src="https://portfolio-joaotulio.vercel.app/img/foto_antiga.jpg" alt="Imagem de perfil" /> */}
+          {/* <img src="https://portfolio-joaotulio.vercel.app/img/foto_antiga.jpg" alt="Image" /> */}
         </ScrollAnimation>
       </div>
     </Container>
