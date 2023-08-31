@@ -19,7 +19,7 @@ export function Contact(){
         </div>
         <div>
           <img src={phoneIcon} alt="tel" />
-          <a href="tel:+91-7806875158">(31) 7806875158</a>
+          <a href="tel:+91-7806875158">7806875158</a>
         </div>  
       </div>
       <Form></Form>
