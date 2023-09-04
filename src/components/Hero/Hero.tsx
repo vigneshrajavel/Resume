@@ -17,7 +17,7 @@ export function Hero(){
           <h3>Web Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">I'm a computer technician with a focus on web development with JavaScript.</p>
+          <p className="small-resume">I'm a new graduate with a focus on web development with JavaScript.</p>
         </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>

@@ -18,7 +18,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            My name is Vignesh Rajavel, I am a computer technician with a great
+            My name is Vignesh Rajavel, I am a new graduate with a great
             passion for programming. I am passionate about delivering solutions
             that add value to people's lives and at the same time challenge me.
             Improved my skills as a Front-End and Back-End developer.
@@ -32,7 +32,7 @@ export function About() {
           <p>
             I develop websites and applications using HTML, CSS, and JavaScript.
             I am familiar with developing layouts that provide me. I'm always
-            improving myself with each project they put in my hands.
+            improving myself with each project.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
@@ -92,7 +92,6 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          {/* <img src="https://portfolio-joaotulio.vercel.app/img/foto_antiga.jpg" alt="Image" /> */}
           <img src={profileImage} alt="Image" />
         </ScrollAnimation>
       </div>
